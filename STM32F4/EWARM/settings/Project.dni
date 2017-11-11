@@ -1,0 +1,92 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[JLinkDriver]
+WatchCond=_ 0
+Watch0=_ 0 "" 0 "" 0 "" 0 "" 0 0 0 0
+Watch1=_ 0 "" 0 "" 0 "" 0 "" 0 0 0 0
+CStepIntDis=_ 0
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000004
+[DebugChecksum]
+Checksum=1872153593
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[RecentFlashDownload]
+Path=C:\Users\user\Desktop\stendPr\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Exe\Project.hex
+[SfrWindow]
+Show=1 1
+Sort=4 0
+[CodeCoverage]
+Enabled=_ 0
+[array_types]
+Fmt0=uint8_t[50]	3	0
+[watch_formats]
+Fmt0={W}42:NCS	3	0
+Fmt1={W}42:TxMessage.StdId	4	0
+Fmt2={W}42:a1	3	0
+Fmt3={W}42:abbuff	3	0
+Fmt4={W}42:aod	3	0
+Fmt5={W}42:aostep	3	0
+Fmt6={W}42:br20	3	0
+Fmt7={W}42:cancod10	1	0
+Fmt8={W}42:canrcod10	3	0
+Fmt9={W}42:cantcod10	3	0
+Fmt10={W}42:dstep	3	0
+Fmt11={W}42:dstepf	3	0
+Fmt12={W}42:dstepnf	3	0
+Fmt13={W}42:dstepuf	3	0
+Fmt14={W}42:highl	3	0
+Fmt15={W}42:lowl	3	0
+Fmt16={W}42:memop23	1	0
+Fmt17={W}42:optrones23	1	0
+Fmt18={W}42:pauss	3	0
+Fmt19={W}42:phasepoc	3	0
+Fmt20={W}42:pokprob	3	0
+Fmt21={W}42:powert1	3	0
+Fmt22={W}42:secgn	3	0
+Fmt23={W}42:top23	1	0
+Fmt24={W}42:torq50	3	0
+Fmt25={W}42:typetr	3	0
+[Trace1]
+Enabled=0
+ShowSource=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[CallStackLog]
+Enabled=0
+[CallStackStripe]
+ShowTiming=1
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "EMUL_CODE" "0x080057E0" 0 0 1 "" 0 "" 0
+Count=1
+[Aliases]
+A0=_ "C:\Users\user\Desktop\stendPr\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\main.c" "C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\main.c"
+Count=1
+SuppressDialog=0

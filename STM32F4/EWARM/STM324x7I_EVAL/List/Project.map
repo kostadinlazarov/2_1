@@ -1,0 +1,952 @@
+###############################################################################
+#
+# IAR ELF Linker V7.50.2.10312/W32 for ARM                27/Oct/2017  19:22:08
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Exe\Project.out
+#    Map file     =  
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\List\Project.map
+#    Command line =  
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\main.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\misc.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\spi_flash.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\startup_stm32f427x.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm324x7i_eval.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm324x7i_eval_fsmc_sram.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm324x7i_eval_ioe.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm324x7i_eval_lcd.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_adc.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_can.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_crc.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_cryp.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_cryp_aes.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_cryp_des.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_cryp_tdes.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_dac.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_dbgmcu.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_dcmi.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_dma.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_exti.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_flash.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_fsmc.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_gpio.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_hash.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_hash_md5.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_hash_sha1.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_i2c.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_it.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_iwdg.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_pwr.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_rcc.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_rng.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_rtc.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_sdio.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_spi.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_syscfg.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_tim.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_usart.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\stm32f4xx_wwdg.o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj\system_stm32f4xx.o
+#        --redirect _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall -o
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Exe\Project.out
+#        --map
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\List\Project.map
+#        --config
+#        C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\stm32f4xx_flash.icf
+#        --semihosting --entry __iar_program_start --no_vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x081fffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2002ffff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                      0x19c
+  .intvec            ro code  0x08000000   0x19c  startup_stm32f427x.o [1]
+                            - 0x0800019c   0x19c
+
+"P1":                                     0x75f8
+  .text              ro code  0x0800019c  0x4194  stm32f4xx_it.o [1]
+  .text              ro code  0x08004330   0x358  stm32f4xx_tim.o [1]
+  .text              ro code  0x08004688   0x126  stm32f4xx_gpio.o [1]
+  .text              ro code  0x080047b0    0xcc  stm32f4xx_exti.o [1]
+  .text              ro code  0x0800487c   0x4e4  stm32f4xx_can.o [1]
+  .text              ro code  0x08004d60     0x8  abs.o [3]
+  .text              ro code  0x08004d68    0x88  stm32f4xx_rcc.o [1]
+  .text              ro code  0x08004df0  0x2494  main.o [1]
+  .text              ro code  0x08007284     0x8  stm32f4xx_usart.o [1]
+  .text              ro code  0x0800728c    0x7c  misc.o [1]
+  .text              ro code  0x08007308    0x54  stm32f4xx_syscfg.o [1]
+  .text              ro code  0x0800735c   0x12c  system_stm32f4xx.o [1]
+  Initializer bytes  const    0x08007488    0x50  <for P2-1>
+  .text              ro code  0x080074d8    0x40  zero_init3.o [5]
+  .text              ro code  0x08007518    0x2c  copy_init3.o [5]
+  .text              ro code  0x08007544    0x28  data_init.o [5]
+  .text              ro code  0x0800756c    0x22  fpinit_M.o [4]
+  .iar.init_table    const    0x08007590    0x24  - Linker created -
+  .text              ro code  0x080075b4    0x1a  cmain.o [5]
+  .text              ro code  0x080075ce     0x4  low_level_init.o [3]
+  .text              ro code  0x080075d2     0x4  exit.o [3]
+  .text              ro code  0x080075d8     0xa  cexit.o [5]
+  .text              ro code  0x080075e4    0x14  exit.o [6]
+  .text              ro code  0x080075f8    0x10  startup_stm32f427x.o [1]
+  .text              ro code  0x08007608     0xc  cstartup_M.o [5]
+  .text              ro code  0x08007614     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007618     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x0800761c     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007620     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007624     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007628     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x0800762c     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007630     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007634     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007638     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x0800763c     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007640     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007644     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007648     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x0800764c     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007650     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007654     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007658     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x0800765c     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007660     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007664     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007668     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x0800766c     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007670     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007674     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007678     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x0800767c     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007680     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007684     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007688     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x0800768c     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007690     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007694     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007698     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x0800769c     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x080076a0     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x080076a4     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x080076a8     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x080076ac     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x080076b0     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x080076b4     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x080076b8     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x080076bc     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x080076c0     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x080076c4     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x080076c8     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x080076cc     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x080076d0     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x080076d4     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x080076d8     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x080076dc     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x080076e0     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x080076e4     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x080076e8     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x080076ec     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x080076f0     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x080076f4     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x080076f8     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x080076fc     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007700     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007704     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007708     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x0800770c     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007710     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007714     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007718     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x0800771c     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007720     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007724     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007728     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x0800772c     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007730     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007734     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007738     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x0800773c     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007740     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007744     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007748     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x0800774c     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007750     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007754     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007758     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x0800775c     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007760     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007764     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007768     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x0800776c     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007770     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007774     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007778     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x0800777c     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007780     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007784     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007788     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x0800778c     0x4  startup_stm32f427x.o [1]
+  .text              ro code  0x08007790     0x4  startup_stm32f427x.o [1]
+  .rodata            const    0x08007794     0x0  zero_init3.o [5]
+  .rodata            const    0x08007794     0x0  copy_init3.o [5]
+                            - 0x08007794  0x75f8
+
+"P2", part 1 of 3:                          0x50
+  P2-1                        0x20000000    0x4d  <Init block>
+    .data            inited   0x20000000     0x4  main.o [1]
+    .data            inited   0x20000004     0x4  main.o [1]
+    .data            inited   0x20000008     0x2  main.o [1]
+    .data            inited   0x2000000a     0x2  main.o [1]
+    .data            inited   0x2000000c     0x2  main.o [1]
+    .data            inited   0x2000000e     0x2  main.o [1]
+    .data            inited   0x20000010     0x2  main.o [1]
+    .data            inited   0x20000012     0x2  main.o [1]
+    .data            inited   0x20000014     0x2  main.o [1]
+    .data            inited   0x20000016     0x2  main.o [1]
+    .data            inited   0x20000018     0x2  main.o [1]
+    .data            inited   0x2000001a     0x2  main.o [1]
+    .data            inited   0x2000001c     0x2  main.o [1]
+    .data            inited   0x2000001e     0x2  main.o [1]
+    .data            inited   0x20000020     0x2  main.o [1]
+    .data            inited   0x20000022     0x2  main.o [1]
+    .data            inited   0x20000024     0x2  main.o [1]
+    .data            inited   0x20000026     0x2  main.o [1]
+    .data            inited   0x20000028     0x2  main.o [1]
+    .data            inited   0x2000002a     0x2  main.o [1]
+    .data            inited   0x2000002c     0x2  main.o [1]
+    .data            inited   0x2000002e     0x2  main.o [1]
+    .data            inited   0x20000030     0x2  main.o [1]
+    .data            inited   0x20000032     0x2  main.o [1]
+    .data            inited   0x20000034     0x2  main.o [1]
+    .data            inited   0x20000036     0x2  main.o [1]
+    .data            inited   0x20000038     0x2  stm32f4xx_it.o [1]
+    .data            inited   0x2000003a     0x1  main.o [1]
+    .data            inited   0x2000003b     0x1  main.o [1]
+    .data            inited   0x2000003c     0x1  main.o [1]
+    .data            inited   0x2000003d     0x1  main.o [1]
+    .data            inited   0x2000003e     0x1  main.o [1]
+    .data            inited   0x2000003f     0x1  main.o [1]
+    .data            inited   0x20000040     0x1  main.o [1]
+    .data            inited   0x20000041     0x1  main.o [1]
+    .data            inited   0x20000042     0x1  main.o [1]
+    .data            inited   0x20000043     0x1  main.o [1]
+    .data            inited   0x20000044     0x1  stm32f4xx_it.o [1]
+    .data            inited   0x20000045     0x1  stm32f4xx_it.o [1]
+    .data            inited   0x20000046     0x1  stm32f4xx_it.o [1]
+    .data            inited   0x20000047     0x1  stm32f4xx_it.o [1]
+    .data            inited   0x20000048     0x1  stm32f4xx_it.o [1]
+    .data            inited   0x20000049     0x1  stm32f4xx_it.o [1]
+    .data            inited   0x2000004a     0x1  stm32f4xx_it.o [1]
+    .data            inited   0x2000004b     0x1  stm32f4xx_it.o [1]
+    .data            inited   0x2000004c     0x1  stm32f4xx_it.o [1]
+                            - 0x2000004d    0x4d
+
+"P2", part 2 of 3:                         0x400
+  CSTACK                      0x20000050   0x400  <Block>
+    CSTACK           uninit   0x20000050   0x400  <Block tail>
+                            - 0x20000450   0x400
+
+"P2", part 3 of 3:                        0x155c
+  .bss               zero     0x20000450   0xfa0  main.o [1]
+  .bss               zero     0x200013f0   0x208  main.o [1]
+  .bss               zero     0x200015f8    0x50  main.o [1]
+  .bss               zero     0x20001648    0x50  main.o [1]
+  .bss               zero     0x20001698    0x50  main.o [1]
+  .bss               zero     0x200016e8    0x50  main.o [1]
+  .bss               zero     0x20001738    0x14  main.o [1]
+  .bss               zero     0x2000174c    0x14  main.o [1]
+  .bss               zero     0x20001760    0x14  main.o [1]
+  .bss               zero     0x20001774    0x14  main.o [1]
+  .bss               zero     0x20001788    0x14  main.o [1]
+  .bss               zero     0x2000179c    0x14  main.o [1]
+  .bss               zero     0x200017b0    0x14  main.o [1]
+  .bss               zero     0x200017c4    0x14  main.o [1]
+  .bss               zero     0x200017d8    0x14  main.o [1]
+  .bss               zero     0x200017ec    0x14  main.o [1]
+  .bss               zero     0x20001800    0x14  main.o [1]
+  .bss               zero     0x20001814     0xc  main.o [1]
+  .bss               zero     0x20001820     0xc  main.o [1]
+  .bss               zero     0x2000182c     0x8  main.o [1]
+  .bss               zero     0x20001834     0x4  main.o [1]
+  .bss               zero     0x20001838     0x4  main.o [1]
+  .bss               zero     0x2000183c     0x4  main.o [1]
+  .bss               zero     0x20001840     0x4  main.o [1]
+  .bss               zero     0x20001844     0x4  main.o [1]
+  .bss               zero     0x20001848     0x4  main.o [1]
+  .bss               zero     0x2000184c     0x4  main.o [1]
+  .bss               zero     0x20001850     0x4  main.o [1]
+  .bss               zero     0x20001854     0x4  main.o [1]
+  .bss               zero     0x20001858     0x4  main.o [1]
+  .bss               zero     0x2000185c     0x4  main.o [1]
+  .bss               zero     0x20001860     0x4  main.o [1]
+  .bss               zero     0x20001864     0x4  main.o [1]
+  .bss               zero     0x20001868     0x4  main.o [1]
+  .bss               zero     0x2000186c     0x4  main.o [1]
+  .bss               zero     0x20001870     0x4  main.o [1]
+  .bss               zero     0x20001874     0x4  main.o [1]
+  .bss               zero     0x20001878     0x4  main.o [1]
+  .bss               zero     0x2000187c     0x4  main.o [1]
+  .bss               zero     0x20001880     0x4  main.o [1]
+  .bss               zero     0x20001884     0x4  main.o [1]
+  .bss               zero     0x20001888     0x4  main.o [1]
+  .bss               zero     0x2000188c     0x4  main.o [1]
+  .bss               zero     0x20001890     0x4  main.o [1]
+  .bss               zero     0x20001894     0x4  main.o [1]
+  .bss               zero     0x20001898     0x4  main.o [1]
+  .bss               zero     0x2000189c     0x4  main.o [1]
+  .bss               zero     0x200018a0     0x4  main.o [1]
+  .bss               zero     0x200018a4     0x4  main.o [1]
+  .bss               zero     0x200018a8     0x4  main.o [1]
+  .bss               zero     0x200018ac     0x4  main.o [1]
+  .bss               zero     0x200018b0     0x4  main.o [1]
+  .bss               zero     0x200018b4     0x4  main.o [1]
+  .bss               zero     0x200018b8     0x4  main.o [1]
+  .bss               zero     0x200018bc     0x4  main.o [1]
+  .bss               zero     0x200018c0     0x4  main.o [1]
+  .bss               zero     0x200018c4     0x2  main.o [1]
+  .bss               zero     0x200018c6     0x2  main.o [1]
+  .bss               zero     0x200018c8     0x2  main.o [1]
+  .bss               zero     0x200018ca     0x2  main.o [1]
+  .bss               zero     0x200018cc     0x2  main.o [1]
+  .bss               zero     0x200018ce     0x2  main.o [1]
+  .bss               zero     0x200018d0     0x2  main.o [1]
+  .bss               zero     0x200018d2     0x2  main.o [1]
+  .bss               zero     0x200018d4     0x2  main.o [1]
+  .bss               zero     0x200018d6     0x2  main.o [1]
+  .bss               zero     0x200018d8     0x2  main.o [1]
+  .bss               zero     0x200018da     0x2  main.o [1]
+  .bss               zero     0x200018dc     0x2  main.o [1]
+  .bss               zero     0x200018de     0x2  main.o [1]
+  .bss               zero     0x200018e0     0x2  main.o [1]
+  .bss               zero     0x200018e2     0x2  main.o [1]
+  .bss               zero     0x200018e4     0x2  main.o [1]
+  .bss               zero     0x200018e6     0x2  main.o [1]
+  .bss               zero     0x200018e8     0x2  main.o [1]
+  .bss               zero     0x200018ea     0x2  main.o [1]
+  .bss               zero     0x200018ec     0x2  main.o [1]
+  .bss               zero     0x200018ee     0x2  main.o [1]
+  .bss               zero     0x200018f0     0x2  main.o [1]
+  .bss               zero     0x200018f2     0x2  main.o [1]
+  .bss               zero     0x200018f4     0x2  main.o [1]
+  .bss               zero     0x200018f6     0x2  main.o [1]
+  .bss               zero     0x200018f8     0x2  main.o [1]
+  .bss               zero     0x200018fa     0x2  main.o [1]
+  .bss               zero     0x200018fc     0x2  main.o [1]
+  .bss               zero     0x200018fe     0x2  main.o [1]
+  .bss               zero     0x20001900     0x2  main.o [1]
+  .bss               zero     0x20001902     0x2  main.o [1]
+  .bss               zero     0x20001904     0x2  main.o [1]
+  .bss               zero     0x20001906     0x2  main.o [1]
+  .bss               zero     0x20001908     0x2  main.o [1]
+  .bss               zero     0x2000190a     0x2  main.o [1]
+  .bss               zero     0x2000190c     0x2  main.o [1]
+  .bss               zero     0x2000190e     0x2  main.o [1]
+  .bss               zero     0x20001910     0x2  main.o [1]
+  .bss               zero     0x20001912     0x2  main.o [1]
+  .bss               zero     0x20001914     0x2  main.o [1]
+  .bss               zero     0x20001916     0x2  main.o [1]
+  .bss               zero     0x20001918     0x2  main.o [1]
+  .bss               zero     0x2000191a     0x2  main.o [1]
+  .bss               zero     0x2000191c     0x2  main.o [1]
+  .bss               zero     0x2000191e     0x2  main.o [1]
+  .bss               zero     0x20001920     0x2  main.o [1]
+  .bss               zero     0x20001922     0x2  main.o [1]
+  .bss               zero     0x20001924     0x2  main.o [1]
+  .bss               zero     0x20001926     0x2  main.o [1]
+  .bss               zero     0x20001928     0x2  main.o [1]
+  .bss               zero     0x2000192a     0x2  main.o [1]
+  .bss               zero     0x2000192c     0x2  main.o [1]
+  .bss               zero     0x2000192e     0x2  main.o [1]
+  .bss               zero     0x20001930     0x2  main.o [1]
+  .bss               zero     0x20001932     0x2  main.o [1]
+  .bss               zero     0x20001934     0x2  main.o [1]
+  .bss               zero     0x20001936     0x2  main.o [1]
+  .bss               zero     0x20001938     0x2  main.o [1]
+  .bss               zero     0x2000193a     0x2  main.o [1]
+  .bss               zero     0x2000193c     0x2  main.o [1]
+  .bss               zero     0x2000193e     0x2  main.o [1]
+  .bss               zero     0x20001940     0x2  main.o [1]
+  .bss               zero     0x20001942     0x2  main.o [1]
+  .bss               zero     0x20001944     0x2  stm32f4xx_it.o [1]
+  .bss               zero     0x20001946     0x2  stm32f4xx_it.o [1]
+  .bss               zero     0x20001948     0x1  main.o [1]
+  .bss               zero     0x20001949     0x1  main.o [1]
+  .bss               zero     0x2000194a     0x1  main.o [1]
+  .bss               zero     0x2000194b     0x1  main.o [1]
+  .bss               zero     0x2000194c     0x1  main.o [1]
+  .bss               zero     0x2000194d     0x1  main.o [1]
+  .bss               zero     0x2000194e     0x1  main.o [1]
+  .bss               zero     0x2000194f     0x1  main.o [1]
+  .bss               zero     0x20001950     0x1  main.o [1]
+  .bss               zero     0x20001951     0x1  main.o [1]
+  .bss               zero     0x20001952     0x1  main.o [1]
+  .bss               zero     0x20001953     0x1  main.o [1]
+  .bss               zero     0x20001954     0x1  main.o [1]
+  .bss               zero     0x20001955     0x1  main.o [1]
+  .bss               zero     0x20001956     0x1  main.o [1]
+  .bss               zero     0x20001957     0x1  main.o [1]
+  .bss               zero     0x20001958     0x1  main.o [1]
+  .bss               zero     0x20001959     0x1  main.o [1]
+  .bss               zero     0x2000195a     0x1  main.o [1]
+  .bss               zero     0x2000195b     0x1  main.o [1]
+  .bss               zero     0x2000195c     0x1  main.o [1]
+  .bss               zero     0x2000195d     0x1  main.o [1]
+  .bss               zero     0x2000195e     0x1  main.o [1]
+  .bss               zero     0x2000195f     0x1  main.o [1]
+  .bss               zero     0x20001960     0x1  main.o [1]
+  .bss               zero     0x20001961     0x1  main.o [1]
+  .bss               zero     0x20001962     0x1  main.o [1]
+  .bss               zero     0x20001963     0x1  main.o [1]
+  .bss               zero     0x20001964     0x1  main.o [1]
+  .bss               zero     0x20001965     0x1  main.o [1]
+  .bss               zero     0x20001966     0x1  main.o [1]
+  .bss               zero     0x20001967     0x1  main.o [1]
+  .bss               zero     0x20001968     0x1  main.o [1]
+  .bss               zero     0x20001969     0x1  main.o [1]
+  .bss               zero     0x2000196a     0x1  main.o [1]
+  .bss               zero     0x2000196b     0x1  main.o [1]
+  .bss               zero     0x2000196c     0x1  main.o [1]
+  .bss               zero     0x2000196d     0x1  main.o [1]
+  .bss               zero     0x2000196e     0x1  main.o [1]
+  .bss               zero     0x2000196f     0x1  main.o [1]
+  .bss               zero     0x20001970     0x1  main.o [1]
+  .bss               zero     0x20001971     0x1  main.o [1]
+  .bss               zero     0x20001972     0x1  main.o [1]
+  .bss               zero     0x20001973     0x1  main.o [1]
+  .bss               zero     0x20001974     0x1  main.o [1]
+  .bss               zero     0x20001975     0x1  main.o [1]
+  .bss               zero     0x20001976     0x1  main.o [1]
+  .bss               zero     0x20001977     0x1  main.o [1]
+  .bss               zero     0x20001978     0x1  main.o [1]
+  .bss               zero     0x20001979     0x1  main.o [1]
+  .bss               zero     0x2000197a     0x1  main.o [1]
+  .bss               zero     0x2000197b     0x1  main.o [1]
+  .bss               zero     0x2000197c     0x1  main.o [1]
+  .bss               zero     0x2000197d     0x1  main.o [1]
+  .bss               zero     0x2000197e     0x1  main.o [1]
+  .bss               zero     0x2000197f     0x1  main.o [1]
+  .bss               zero     0x20001980     0x1  main.o [1]
+  .bss               zero     0x20001981     0x1  main.o [1]
+  .bss               zero     0x20001982     0x1  main.o [1]
+  .bss               zero     0x20001983     0x1  main.o [1]
+  .bss               zero     0x20001984     0x1  main.o [1]
+  .bss               zero     0x20001985     0x1  main.o [1]
+  .bss               zero     0x20001986     0x1  main.o [1]
+  .bss               zero     0x20001987     0x1  main.o [1]
+  .bss               zero     0x20001988     0x1  main.o [1]
+  .bss               zero     0x20001989     0x1  main.o [1]
+  .bss               zero     0x2000198a     0x1  main.o [1]
+  .bss               zero     0x2000198b     0x1  main.o [1]
+  .bss               zero     0x2000198c     0x1  main.o [1]
+  .bss               zero     0x2000198d     0x1  main.o [1]
+  .bss               zero     0x2000198e     0x1  main.o [1]
+  .bss               zero     0x2000198f     0x1  main.o [1]
+  .bss               zero     0x20001990     0x1  main.o [1]
+  .bss               zero     0x20001991     0x1  main.o [1]
+  .bss               zero     0x20001992     0x1  main.o [1]
+  .bss               zero     0x20001993     0x1  main.o [1]
+  .bss               zero     0x20001994     0x1  main.o [1]
+  .bss               zero     0x20001995     0x1  main.o [1]
+  .bss               zero     0x20001996     0x1  main.o [1]
+  .bss               zero     0x20001997     0x1  main.o [1]
+  .bss               zero     0x20001998     0x1  main.o [1]
+  .bss               zero     0x20001999     0x1  main.o [1]
+  .bss               zero     0x2000199a     0x1  main.o [1]
+  .bss               zero     0x2000199b     0x1  main.o [1]
+  .bss               zero     0x2000199c     0x1  main.o [1]
+  .bss               zero     0x2000199d     0x1  main.o [1]
+  .bss               zero     0x2000199e     0x1  main.o [1]
+  .bss               zero     0x2000199f     0x1  main.o [1]
+  .bss               zero     0x200019a0     0x1  main.o [1]
+  .bss               zero     0x200019a1     0x1  main.o [1]
+  .bss               zero     0x200019a2     0x1  main.o [1]
+  .bss               zero     0x200019a3     0x1  main.o [1]
+  .bss               zero     0x200019a4     0x1  main.o [1]
+  .bss               zero     0x200019a5     0x1  main.o [1]
+  .bss               zero     0x200019a6     0x1  main.o [1]
+  .bss               zero     0x200019a7     0x1  stm32f4xx_it.o [1]
+  .bss               zero     0x200019a8     0x1  stm32f4xx_it.o [1]
+  .bss               zero     0x200019a9     0x1  stm32f4xx_it.o [1]
+                            - 0x200019aa  0x155a
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x155a:
+          0x20000450  0x155a
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x50 (103% of destination):
+          0x08007488    0x50
+    1 destination range, total size 0x4d:
+          0x20000000    0x4d
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                ro code  ro data  rw data
+    ------                -------  -------  -------
+C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj: [1]
+    main.o                  9 364       66    5 525
+    misc.o                    124
+    startup_stm32f427x.o      812
+    stm32f4xx_can.o         1 252
+    stm32f4xx_exti.o          204
+    stm32f4xx_gpio.o          294
+    stm32f4xx_it.o         16 788       11       18
+    stm32f4xx_rcc.o           136
+    stm32f4xx_syscfg.o         84
+    stm32f4xx_tim.o           856
+    stm32f4xx_usart.o           8
+    system_stm32f4xx.o        300
+    -----------------------------------------------
+    Total:                 30 222       77    5 543
+
+command line: [2]
+    -----------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    abs.o                       8
+    exit.o                      4
+    low_level_init.o            4
+    -----------------------------------------------
+    Total:                     16
+
+m7M_tls.a: [4]
+    fpinit_M.o                 34
+    -----------------------------------------------
+    Total:                     34
+
+rt7M_tl.a: [5]
+    cexit.o                    10
+    cmain.o                    26
+    copy_init3.o               44
+    cstartup_M.o               12
+    data_init.o                40
+    zero_init3.o               64
+    -----------------------------------------------
+    Total:                    196
+
+shb_l.a: [6]
+    exit.o                     20
+    -----------------------------------------------
+    Total:                     20
+
+    Gaps                        6        2
+    Linker created                      39    1 024
+---------------------------------------------------
+    Grand Total:           30 494      118    6 567
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x08007590           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x080075b4           --   Gb  - Linker created -
+?main                   0x080075b5          Code  Gb  cmain.o [5]
+BusFault_Handler        0x080001a3     0x2  Code  Gb  stm32f4xx_it.o [1]
+CAN2_Config             0x08006c69   0x106  Code  Lc  main.o [1]
+CAN_Config              0x08006b31   0x10a  Code  Lc  main.o [1]
+CAN_DeInit              0x0800487d    0x38  Code  Gb  stm32f4xx_can.o [1]
+CAN_FilterInit          0x080049cd   0x112  Code  Gb  stm32f4xx_can.o [1]
+CAN_GetLSBTransmitErrorCounter
+                        0x08004d37     0xe  Code  Gb  stm32f4xx_can.o [1]
+CAN_GetLastErrorCode    0x08004d19    0x10  Code  Gb  stm32f4xx_can.o [1]
+CAN_GetReceiveErrorCounter
+                        0x08004d29     0xe  Code  Gb  stm32f4xx_can.o [1]
+CAN_Init                0x080048b5   0x118  Code  Gb  stm32f4xx_can.o [1]
+CAN_MessagePending      0x08004ced    0x2c  Code  Gb  stm32f4xx_can.o [1]
+CAN_Receive             0x08004c05    0xe8  Code  Gb  stm32f4xx_can.o [1]
+CAN_Transmit            0x08004adf   0x126  Code  Gb  stm32f4xx_can.o [1]
+CCR1_Val2               0x20000018     0x2  Data  Gb  main.o [1]
+CCR1_Val3               0x20000008     0x2  Data  Gb  main.o [1]
+CCR1_Val4               0x20000010     0x2  Data  Gb  main.o [1]
+CCR1_Val5               0x2000001e     0x2  Data  Gb  main.o [1]
+CCR1_Val7               0x20000022     0x2  Data  Gb  main.o [1]
+CCR2_Val2               0x2000001a     0x2  Data  Gb  main.o [1]
+CCR2_Val3               0x2000000a     0x2  Data  Gb  main.o [1]
+CCR2_Val4               0x20000012     0x2  Data  Gb  main.o [1]
+CCR2_Val5               0x20000020     0x2  Data  Gb  main.o [1]
+CCR3_Val2               0x2000001c     0x2  Data  Gb  main.o [1]
+CCR3_Val3               0x2000000c     0x2  Data  Gb  main.o [1]
+CCR3_Val4               0x20000014     0x2  Data  Gb  main.o [1]
+CCR4_Val3               0x2000000e     0x2  Data  Gb  main.o [1]
+CCR4_Val4               0x20000016     0x2  Data  Gb  main.o [1]
+CSTACK$$Base            0x20000050           --   Gb  - Linker created -
+CSTACK$$Limit           0x20000450           --   Gb  - Linker created -
+DebugMon_Handler        0x080001a9     0x2  Code  Gb  stm32f4xx_it.o [1]
+EXTI0_IRQHandler        0x08000867   0x2e8  Code  Gb  stm32f4xx_it.o [1]
+EXTI1_IRQHandler        0x08000bbd   0x418  Code  Gb  stm32f4xx_it.o [1]
+EXTI2_IRQHandler        0x08000fe9   0x12e  Code  Gb  stm32f4xx_it.o [1]
+EXTI3_IRQHandler        0x08001231   0x812  Code  Gb  stm32f4xx_it.o [1]
+EXTI4_IRQHandler        0x08001b71  0x198c  Code  Gb  stm32f4xx_it.o [1]
+EXTI9_5_IRQHandler      0x08003645   0xc08  Code  Gb  stm32f4xx_it.o [1]
+EXTILine0_Config        0x08006ed5    0x76  Code  Lc  main.o [1]
+EXTILine10_Config       0x08007191    0xe8  Code  Lc  main.o [1]
+EXTILine1_Config        0x08006fc1    0x74  Code  Lc  main.o [1]
+EXTILine2_Config        0x08006f4b    0x74  Code  Lc  main.o [1]
+EXTILine3_Config        0x08007035    0x74  Code  Lc  main.o [1]
+EXTILine4_Config        0x0800711d    0x74  Code  Lc  main.o [1]
+EXTILine5_Config        0x080070a9    0x74  Code  Lc  main.o [1]
+EXTI_ClearITPendingBit  0x08004861     0x6  Code  Gb  stm32f4xx_exti.o [1]
+EXTI_GetITStatus        0x08004839    0x28  Code  Gb  stm32f4xx_exti.o [1]
+EXTI_Init               0x080047b1    0x88  Code  Gb  stm32f4xx_exti.o [1]
+GPIO_Init               0x08004689    0xaa  Code  Gb  stm32f4xx_gpio.o [1]
+GPIO_InitStructuret     0x2000182c     0x8  Data  Gb  main.o [1]
+GPIO_PinAFConfig        0x08004755    0x5a  Code  Gb  stm32f4xx_gpio.o [1]
+GPIO_ReadInputDataBit   0x08004733    0x1a  Code  Gb  stm32f4xx_gpio.o [1]
+GPIO_ResetBits          0x08004751     0x4  Code  Gb  stm32f4xx_gpio.o [1]
+GPIO_SetBits            0x0800474d     0x4  Code  Gb  stm32f4xx_gpio.o [1]
+HardFault_Handler       0x0800019f     0x2  Code  Gb  stm32f4xx_it.o [1]
+MemManage_Handler       0x080001a1     0x2  Code  Gb  stm32f4xx_it.o [1]
+NMI_Handler             0x0800019d     0x2  Code  Gb  stm32f4xx_it.o [1]
+NVIC_Init               0x0800728d    0x6a  Code  Gb  misc.o [1]
+PendSV_Handler          0x080001ab     0x2  Code  Gb  stm32f4xx_it.o [1]
+PrescalerValue          0x200018ee     0x2  Data  Gb  main.o [1]
+RCC_AHB1PeriphClockCmd  0x08004d69    0x1e  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_APB1PeriphClockCmd  0x08004d87    0x1e  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_APB1PeriphResetCmd  0x08004dc3    0x1e  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x08004da5    0x1e  Code  Gb  stm32f4xx_rcc.o [1]
+Region$$Table$$Base     0x08007590           --   Gb  - Linker created -
+Region$$Table$$Limit    0x080075b4           --   Gb  - Linker created -
+RxMessage1              0x20001788    0x14  Data  Gb  main.o [1]
+RxMessage2              0x200017b0    0x14  Data  Gb  main.o [1]
+SVC_Handler             0x080001a7     0x2  Code  Gb  stm32f4xx_it.o [1]
+SYSCFG_EXTILineConfig   0x08007309    0x50  Code  Gb  stm32f4xx_syscfg.o [1]
+SetSysClock             0x080073af    0xac  Code  Lc  system_stm32f4xx.o [1]
+SysTick_Handler         0x080001ad     0x2  Code  Gb  stm32f4xx_it.o [1]
+SystemInit              0x0800735d    0x52  Code  Gb  system_stm32f4xx.o [1]
+TIM2_Config             0x08006e19    0x2a  Code  Gb  main.o [1]
+TIM2_IRQHandler         0x080001af   0x37a  Code  Gb  stm32f4xx_it.o [1]
+TIM3_Config             0x08006dc5    0x2a  Code  Gb  main.o [1]
+TIM3_IRQHandler         0x080006a9   0x114  Code  Gb  stm32f4xx_it.o [1]
+TIM4_Config             0x08006def    0x2a  Code  Gb  main.o [1]
+TIM4_IRQHandler         0x080007bd    0xaa  Code  Gb  stm32f4xx_it.o [1]
+TIM5_Config             0x08006e43    0x2a  Code  Gb  main.o [1]
+TIM5_IRQHandler         0x08000529   0x180  Code  Gb  stm32f4xx_it.o [1]
+TIM_ClearITPendingBit   0x08004681     0x8  Code  Gb  stm32f4xx_tim.o [1]
+TIM_Cmd                 0x080043a9    0x1c  Code  Gb  stm32f4xx_tim.o [1]
+TIM_GetCounter          0x080043a5     0x4  Code  Gb  stm32f4xx_tim.o [1]
+TIM_GetITStatus         0x0800464f    0x32  Code  Gb  stm32f4xx_tim.o [1]
+TIM_ITConfig            0x08004639    0x16  Code  Gb  stm32f4xx_tim.o [1]
+TIM_OC1Init             0x080043c5    0x7e  Code  Gb  stm32f4xx_tim.o [1]
+TIM_OC1PreloadConfig    0x080045ed    0x12  Code  Gb  stm32f4xx_tim.o [1]
+TIM_OC2Init             0x08004443    0x8c  Code  Gb  stm32f4xx_tim.o [1]
+TIM_OC2PreloadConfig    0x080045ff    0x14  Code  Gb  stm32f4xx_tim.o [1]
+TIM_OC3Init             0x080044cf    0x8a  Code  Gb  stm32f4xx_tim.o [1]
+TIM_OC3PreloadConfig    0x08004613    0x12  Code  Gb  stm32f4xx_tim.o [1]
+TIM_OC4Init             0x08004559    0x68  Code  Gb  stm32f4xx_tim.o [1]
+TIM_OC4PreloadConfig    0x08004625    0x14  Code  Gb  stm32f4xx_tim.o [1]
+TIM_OCInitStructure     0x20001738    0x14  Data  Gb  main.o [1]
+TIM_PrescalerConfig     0x0800439b     0x6  Code  Gb  stm32f4xx_tim.o [1]
+TIM_SetCompare1         0x080045e1     0x4  Code  Gb  stm32f4xx_tim.o [1]
+TIM_SetCompare2         0x080045e5     0x4  Code  Gb  stm32f4xx_tim.o [1]
+TIM_SetCompare3         0x080045e9     0x4  Code  Gb  stm32f4xx_tim.o [1]
+TIM_SetCounter          0x080043a1     0x4  Code  Gb  stm32f4xx_tim.o [1]
+TIM_TimeBaseInit        0x08004331    0x6a  Code  Gb  stm32f4xx_tim.o [1]
+TIM_TimeBaseStructure   0x20001814     0xc  Data  Gb  main.o [1]
+TransmitMailbox         0x200019a1     0x1  Data  Gb  main.o [1]
+TransmitMailbox2        0x200019a2     0x1  Data  Gb  main.o [1]
+TxMessage               0x20001760    0x14  Data  Gb  main.o [1]
+TxMessage1              0x20001774    0x14  Data  Gb  main.o [1]
+TxMessage2              0x2000179c    0x14  Data  Gb  main.o [1]
+TxMessage3              0x200017c4    0x14  Data  Gb  main.o [1]
+TxMessage4              0x200017d8    0x14  Data  Gb  main.o [1]
+TxMessage5              0x200017ec    0x14  Data  Gb  main.o [1]
+TxMessage6              0x20001800    0x14  Data  Gb  main.o [1]
+USART_ReceiveData       0x08007285     0x8  Code  Gb  stm32f4xx_usart.o [1]
+UsageFault_Handler      0x080001a5     0x2  Code  Gb  stm32f4xx_it.o [1]
+__cmain                 0x080075b5          Code  Gb  cmain.o [5]
+__exit                  0x080075e5    0x14  Code  Gb  exit.o [6]
+__iar_copy_init3        0x08007519    0x2c  Code  Gb  copy_init3.o [5]
+__iar_data_init3        0x08007545    0x28  Code  Gb  data_init.o [5]
+__iar_init_vfp          0x0800756d          Code  Gb  fpinit_M.o [4]
+__iar_program_start     0x08007609          Code  Gb  cstartup_M.o [5]
+__iar_zero_init3        0x080074d9    0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x080075cf     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000          Data  Gb  startup_stm32f427x.o [1]
+_call_main              0x080075c1          Code  Gb  cmain.o [5]
+_exit                   0x080075d9          Code  Gb  cexit.o [5]
+_main                   0x080075cb          Code  Gb  cmain.o [5]
+a1                      0x20001992     0x1  Data  Gb  main.o [1]
+abs                     0x08004d61     0x8  Code  Gb  abs.o [3]
+aod                     0x20001970     0x1  Data  Gb  main.o [1]
+aodc                    0x20001971     0x1  Data  Gb  main.o [1]
+aogen                   0x20000032     0x2  Data  Gb  main.o [1]
+aostep                  0x2000003c     0x1  Data  Gb  main.o [1]
+avpowergen1             0x20001848     0x4  Data  Gb  main.o [1]
+avpowergen2             0x2000184c     0x4  Data  Gb  main.o [1]
+avpowergen3             0x20001850     0x4  Data  Gb  main.o [1]
+avpowergen4             0x20001854     0x4  Data  Gb  main.o [1]
+avpowergen5             0x20001858     0x4  Data  Gb  main.o [1]
+avpowergen6             0x2000185c     0x4  Data  Gb  main.o [1]
+avpowergenc             0x2000196e     0x1  Data  Gb  main.o [1]
+b1                      0x20001993     0x1  Data  Gb  main.o [1]
+beg                     0x2000197c     0x1  Data  Gb  main.o [1]
+c1                      0x20001994     0x1  Data  Gb  main.o [1]
+ca0a                    0x20000044     0x1  Data  Gb  stm32f4xx_it.o [1]
+ca0b                    0x20000047     0x1  Data  Gb  stm32f4xx_it.o [1]
+ca1a                    0x200019a7     0x1  Data  Gb  stm32f4xx_it.o [1]
+ca1b                    0x20000048     0x1  Data  Gb  stm32f4xx_it.o [1]
+ca2a                    0x20000045     0x1  Data  Gb  stm32f4xx_it.o [1]
+ca2b                    0x20000049     0x1  Data  Gb  stm32f4xx_it.o [1]
+ca3a                    0x200019a8     0x1  Data  Gb  stm32f4xx_it.o [1]
+ca3b                    0x2000004a     0x1  Data  Gb  stm32f4xx_it.o [1]
+ca4a                    0x20000046     0x1  Data  Gb  stm32f4xx_it.o [1]
+ca4b                    0x2000004b     0x1  Data  Gb  stm32f4xx_it.o [1]
+ca5a                    0x200019a9     0x1  Data  Gb  stm32f4xx_it.o [1]
+ca5b                    0x2000004c     0x1  Data  Gb  stm32f4xx_it.o [1]
+can2cod                 0x20001954     0x1  Data  Gb  main.o [1]
+can2cod22               0x2000195d     0x1  Data  Gb  main.o [1]
+can2cod23               0x2000195a     0x1  Data  Gb  main.o [1]
+can2cod24               0x20001957     0x1  Data  Gb  main.o [1]
+can2rcod                0x20001955     0x1  Data  Gb  main.o [1]
+can2rcod22              0x2000195e     0x1  Data  Gb  main.o [1]
+can2rcod23              0x2000195b     0x1  Data  Gb  main.o [1]
+can2rcod24              0x20001958     0x1  Data  Gb  main.o [1]
+can2tcod                0x20001956     0x1  Data  Gb  main.o [1]
+can2tcod22              0x2000195f     0x1  Data  Gb  main.o [1]
+can2tcod23              0x2000195c     0x1  Data  Gb  main.o [1]
+can2tcod24              0x20001959     0x1  Data  Gb  main.o [1]
+cancod                  0x20001948     0x1  Data  Gb  main.o [1]
+cancod10                0x2000194b     0x1  Data  Gb  main.o [1]
+cancod11                0x2000194e     0x1  Data  Gb  main.o [1]
+cancod22                0x20001951     0x1  Data  Gb  main.o [1]
+canrcod                 0x20001949     0x1  Data  Gb  main.o [1]
+canrcod10               0x2000194c     0x1  Data  Gb  main.o [1]
+canrcod11               0x2000194f     0x1  Data  Gb  main.o [1]
+canrcod22               0x20001952     0x1  Data  Gb  main.o [1]
+cantcod                 0x2000194a     0x1  Data  Gb  main.o [1]
+cantcod10               0x2000194d     0x1  Data  Gb  main.o [1]
+cantcod11               0x20001950     0x1  Data  Gb  main.o [1]
+cantcod22               0x20001953     0x1  Data  Gb  main.o [1]
+commt                   0x200018a0     0x4  Data  Gb  main.o [1]
+cti2                    0x20001973     0x1  Data  Gb  main.o [1]
+delay                   0x200018b4     0x4  Data  Gb  main.o [1]
+delfalarm               0x200018e8     0x2  Data  Gb  main.o [1]
+diff                    0x20001868     0x4  Data  Gb  main.o [1]
+dstep                   0x2000003d     0x1  Data  Gb  main.o [1]
+dstepf                  0x20000040     0x1  Data  Gb  main.o [1]
+dstepnf                 0x20000041     0x1  Data  Gb  main.o [1]
+dstepuf                 0x2000003f     0x1  Data  Gb  main.o [1]
+dvdel                   0x20001914     0x2  Data  Gb  main.o [1]
+endacc                  0x20001991     0x1  Data  Gb  main.o [1]
+endch                   0x2000198e     0x1  Data  Gb  main.o [1]
+errora                  0x200019a5     0x1  Data  Gb  main.o [1]
+et                      0x20001940     0x2  Data  Gb  main.o [1]
+exit                    0x080075d3     0x4  Code  Gb  exit.o [3]
+fifon                   0x2000199a     0x1  Data  Gb  main.o [1]
+fifon2                  0x2000199b     0x1  Data  Gb  main.o [1]
+firt                    0x2000003a     0x1  Data  Gb  main.o [1]
+flstep                  0x20001977     0x1  Data  Gb  main.o [1]
+fullpr                  0x2000197f     0x1  Data  Gb  main.o [1]
+generator               0x20000034     0x2  Data  Gb  main.o [1]
+iaogen                  0x2000191e     0x2  Data  Gb  main.o [1]
+igen                    0x2000191c     0x2  Data  Gb  main.o [1]
+ivdv                    0x20001920     0x2  Data  Gb  main.o [1]
+ivgen                   0x20001922     0x2  Data  Gb  main.o [1]
+kdstop                  0x200018e0     0x2  Data  Gb  main.o [1]
+kdvValue                0x2000002e     0x2  Data  Gb  main.o [1]
+kdvd1                   0x2000197d     0x1  Data  Gb  main.o [1]
+kdvd2                   0x20000042     0x1  Data  Gb  main.o [1]
+main                    0x08004df1  0x1d0a  Code  Gb  main.o [1]
+memop23                 0x200019a0     0x1  Data  Gb  main.o [1]
+mingk                   0x20001874     0x4  Data  Gb  main.o [1]
+mingn                   0x2000186c     0x4  Data  Gb  main.o [1]
+minmk                   0x20001884     0x4  Data  Gb  main.o [1]
+minmn                   0x2000187c     0x4  Data  Gb  main.o [1]
+nar8                    0x20001979     0x1  Data  Gb  main.o [1]
+narab                   0x20001864     0x4  Data  Gb  main.o [1]
+narabt                  0x20001894     0x4  Data  Gb  main.o [1]
+nomperiod               0x20001987     0x1  Data  Gb  main.o [1]
+nomperiod2              0x20001999     0x1  Data  Gb  main.o [1]
+nomperiod3              0x2000196b     0x1  Data  Gb  main.o [1]
+oboroti                 0x200018e4     0x2  Data  Gb  main.o [1]
+ok                      0x20001985     0x1  Data  Gb  main.o [1]
+optrones23              0x2000190e     0x2  Data  Gb  main.o [1]
+p1                      0x2000192e     0x2  Data  Gb  main.o [1]
+p1c                     0x20001998     0x1  Data  Gb  main.o [1]
+p1h                     0x20001966     0x1  Data  Gb  main.o [1]
+p1l                     0x20001967     0x1  Data  Gb  main.o [1]
+p1m                     0x200016e8    0x50  Data  Gb  main.o [1]
+p1sum                   0x2000193e     0x2  Data  Gb  main.o [1]
+p1temp                  0x20001936     0x2  Data  Gb  main.o [1]
+pao1                    0x20001834     0x4  Data  Gb  main.o [1]
+pao2                    0x20001838     0x4  Data  Gb  main.o [1]
+pao3                    0x2000183c     0x4  Data  Gb  main.o [1]
+pao4                    0x20001840     0x4  Data  Gb  main.o [1]
+pao5                    0x20001844     0x4  Data  Gb  main.o [1]
+paoc                    0x2000196c     0x1  Data  Gb  main.o [1]
+paocd                   0x2000196d     0x1  Data  Gb  main.o [1]
+paostep                 0x20001972     0x1  Data  Gb  main.o [1]
+petap                   0x200018d6     0x2  Data  Gb  main.o [1]
+ph0                     0x200018c4     0x2  Data  Gb  main.o [1]
+ph1                     0x200018c6     0x2  Data  Gb  main.o [1]
+ph2                     0x200018c8     0x2  Data  Gb  main.o [1]
+ph3                     0x200018ca     0x2  Data  Gb  main.o [1]
+ph4                     0x200018cc     0x2  Data  Gb  main.o [1]
+ph5                     0x200018ce     0x2  Data  Gb  main.o [1]
+pokcheck                0x200019a6     0x1  Data  Gb  main.o [1]
+pokgrpm                 0x20001986     0x1  Data  Gb  main.o [1]
+pokop                   0x2000198f     0x1  Data  Gb  main.o [1]
+pokprob                 0x20001990     0x1  Data  Gb  main.o [1]
+pokvazd                 0x20001978     0x1  Data  Gb  main.o [1]
+poweraogen              0x200018a8     0x4  Data  Gb  main.o [1]
+powerdvig               0x200018ac     0x4  Data  Gb  main.o [1]
+powergen                0x200018a4     0x4  Data  Gb  main.o [1]
+powert1                 0x2000003e     0x1  Data  Gb  main.o [1]
+pracc                   0x20001942     0x2  Data  Gb  main.o [1]
+prog                    0x20000450   0xfa0  Data  Gb  main.o [1]
+pstep                   0x20001976     0x1  Data  Gb  main.o [1]
+realrpm                 0x200018e2     0x2  Data  Gb  main.o [1]
+relaogen                0x20001988     0x1  Data  Gb  main.o [1]
+rerpmop                 0x200018f2     0x2  Data  Gb  main.o [1]
+resnom                  0x20001968     0x1  Data  Gb  main.o [1]
+resnom2                 0x20001969     0x1  Data  Gb  main.o [1]
+resnom3                 0x2000196a     0x1  Data  Gb  main.o [1]
+rpm                     0x20001902     0x2  Data  Gb  main.o [1]
+rpmc                    0x2000198c     0x1  Data  Gb  main.o [1]
+rpmch                   0x200018e6     0x2  Data  Gb  main.o [1]
+rpmop                   0x20001908     0x2  Data  Gb  main.o [1]
+rpmopc                  0x2000197e     0x1  Data  Gb  main.o [1]
+rpmopt1                 0x200018f4     0x2  Data  Gb  main.o [1]
+rpmopt2                 0x200018f6     0x2  Data  Gb  main.o [1]
+rpmopt3                 0x200018f8     0x2  Data  Gb  main.o [1]
+rpmzad                  0x20001926     0x2  Data  Gb  main.o [1]
+secgk                   0x20001878     0x4  Data  Gb  main.o [1]
+secgn                   0x20001870     0x4  Data  Gb  main.o [1]
+secmk                   0x20001888     0x4  Data  Gb  main.o [1]
+secmn                   0x20001880     0x4  Data  Gb  main.o [1]
+sefst                   0x200019a3     0x1  Data  Gb  main.o [1]
+sefstpok                0x200019a4     0x1  Data  Gb  main.o [1]
+sefstvdv                0x200018dc     0x2  Data  Gb  main.o [1]
+sefstvgen               0x200018de     0x2  Data  Gb  main.o [1]
+shpr1                   0x20001980     0x1  Data  Gb  main.o [1]
+shpr3                   0x20001981     0x1  Data  Gb  main.o [1]
+shpr4                   0x20001982     0x1  Data  Gb  main.o [1]
+shpr5                   0x20001983     0x1  Data  Gb  main.o [1]
+shpr9                   0x20001984     0x1  Data  Gb  main.o [1]
+start                   0x200018b0     0x4  Data  Gb  main.o [1]
+stoppd                  0x2000199d     0x1  Data  Gb  main.o [1]
+swaogen                 0x2000196f     0x1  Data  Gb  main.o [1]
+swdstop                 0x20000028     0x2  Data  Gb  main.o [1]
+swdvig                  0x2000197a     0x1  Data  Gb  main.o [1]
+swrpm                   0x200018da     0x2  Data  Gb  main.o [1]
+swvdvig                 0x20001975     0x1  Data  Gb  main.o [1]
+swvgen                  0x20001974     0x1  Data  Gb  main.o [1]
+swvstop                 0x20000026     0x2  Data  Gb  main.o [1]
+t1                      0x20001928     0x2  Data  Gb  main.o [1]
+t1c                     0x20001995     0x1  Data  Gb  main.o [1]
+t1h                     0x20001960     0x1  Data  Gb  main.o [1]
+t1l                     0x20001961     0x1  Data  Gb  main.o [1]
+t1m                     0x200015f8    0x50  Data  Gb  main.o [1]
+t1sum                   0x20001938     0x2  Data  Gb  main.o [1]
+t1temp                  0x20001930     0x2  Data  Gb  main.o [1]
+t2                      0x2000192a     0x2  Data  Gb  main.o [1]
+t2c                     0x20001996     0x1  Data  Gb  main.o [1]
+t2h                     0x20001962     0x1  Data  Gb  main.o [1]
+t2l                     0x20001963     0x1  Data  Gb  main.o [1]
+t2m                     0x20001648    0x50  Data  Gb  main.o [1]
+t2sum                   0x2000193a     0x2  Data  Gb  main.o [1]
+t2temp                  0x20001932     0x2  Data  Gb  main.o [1]
+t3                      0x2000192c     0x2  Data  Gb  main.o [1]
+t3c                     0x20001997     0x1  Data  Gb  main.o [1]
+t3h                     0x20001964     0x1  Data  Gb  main.o [1]
+t3l                     0x20001965     0x1  Data  Gb  main.o [1]
+t3m                     0x20001698    0x50  Data  Gb  main.o [1]
+t3sum                   0x2000193c     0x2  Data  Gb  main.o [1]
+t3temp                  0x20001934     0x2  Data  Gb  main.o [1]
+tcommt                  0x20001860     0x4  Data  Gb  main.o [1]
+tempcan2                0x200018ea     0x2  Data  Gb  main.o [1]
+temt1                   0x200018fc     0x2  Data  Gb  main.o [1]
+temt2                   0x200018fe     0x2  Data  Gb  main.o [1]
+temt3                   0x20001900     0x2  Data  Gb  main.o [1]
+temtap                  0x20001890     0x4  Data  Gb  main.o [1]
+test                    0x20001946     0x2  Data  Gb  stm32f4xx_it.o [1]
+testspeed1              0x200018bc     0x4  Data  Gb  main.o [1]
+testspeed2              0x200018c0     0x4  Data  Gb  main.o [1]
+tetap                   0x2000188c     0x4  Data  Gb  main.o [1]
+timacc                  0x200018d8     0x2  Data  Gb  main.o [1]
+timcan1                 0x200018d4     0x2  Data  Gb  main.o [1]
+timetap                 0x20001898     0x4  Data  Gb  main.o [1]
+timfourcounter          0x20001944     0x2  Data  Gb  stm32f4xx_it.o [1]
+timsefst                0x200018f0     0x2  Data  Gb  main.o [1]
+tokdc                   0x2000190a     0x2  Data  Gb  main.o [1]
+tokdcc                  0x2000198d     0x1  Data  Gb  main.o [1]
+tokiso                  0x20001906     0x2  Data  Gb  main.o [1]
+tokiso2                 0x20001820     0xc  Data  Gb  main.o [1]
+toku2                   0x20001910     0x2  Data  Gb  main.o [1]
+toku3                   0x2000198b     0x1  Data  Gb  main.o [1]
+top23                   0x200018fa     0x2  Data  Gb  main.o [1]
+torq50                  0x2000003b     0x1  Data  Gb  main.o [1]
+torqc                   0x2000199f     0x1  Data  Gb  main.o [1]
+torqch                  0x2000199e     0x1  Data  Gb  main.o [1]
+torque                  0x2000190c     0x2  Data  Gb  main.o [1]
+torquec                 0x200018d2     0x2  Data  Gb  main.o [1]
+torqued                 0x2000189c     0x4  Data  Gb  main.o [1]
+torquem                 0x200013f0   0x208  Data  Gb  main.o [1]
+torquesum               0x200018b8     0x4  Data  Gb  main.o [1]
+torqye                  0x20001924     0x2  Data  Gb  main.o [1]
+trans                   0x20000043     0x1  Data  Gb  main.o [1]
+tvcan                   0x200018d0     0x2  Data  Gb  main.o [1]
+typetr                  0x2000199c     0x1  Data  Gb  main.o [1]
+ukot                    0x20001989     0x1  Data  Gb  main.o [1]
+ukotc                   0x2000198a     0x1  Data  Gb  main.o [1]
+ukotva                  0x2000191a     0x2  Data  Gb  main.o [1]
+uskor                   0x2000197b     0x1  Data  Gb  main.o [1]
+uskorhz                 0x200018ec     0x2  Data  Gb  main.o [1]
+valaop                  0x20000004     0x4  Data  Gb  main.o [1]
+valtor                  0x20000000     0x4  Data  Gb  main.o [1]
+vaogendel               0x20001918     0x2  Data  Gb  main.o [1]
+varchc                  0x2000174c    0x14  Data  Gb  main.o [1]
+vaz2                    0x2000002c     0x2  Data  Gb  main.o [1]
+vdvcurrent              0x20000036     0x2  Data  Gb  main.o [1]
+vdvdel                  0x20001912     0x2  Data  Gb  main.o [1]
+vdvtok                  0x2000002a     0x2  Data  Gb  main.o [1]
+vgenValue               0x20000030     0x2  Data  Gb  main.o [1]
+vgendel                 0x20001916     0x2  Data  Gb  main.o [1]
+vgstep                  0x20000024     0x2  Data  Gb  main.o [1]
+voltagedv               0x20001904     0x2  Data  Gb  main.o [1]
+zap                     0x20000038     0x2  Data  Gb  stm32f4xx_it.o [1]
+
+
+[1] = C:\Users\user\Desktop\2_1\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4\EWARM\STM324x7I_EVAL\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  30 494 bytes of readonly  code memory
+     118 bytes of readonly  data memory
+   6 567 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
